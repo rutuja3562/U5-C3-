@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+.list_container{
+  display:grid;
+  grid-template-columns: repeat(5,1fr);
+  gap:20px;
+  padding: 10px;
+  border:1px solid red;
+}
+.employee_card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
